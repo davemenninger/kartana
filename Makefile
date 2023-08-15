@@ -1,6 +1,6 @@
 .PHONY: clean open
 
-source_files = metadata.yaml.md a_monster.md
+source_files = $(wildcard *.md)
 pdf_file = output.pdf
 
 $(pdf_file): $(source_files)
