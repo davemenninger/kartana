@@ -14,10 +14,18 @@ html: $(html_file)
 all: pdf html ## Generates both HTML and PDF
 
 $(pdf_file): $(metadata_file) $(source_files)
-	pandoc -s --pdf-engine=xelatex -V subparagraph $(metadata_file) $(source_files) -o $(pdf_file)
+	pandoc -s \
+		--resource-path=.:pages:assets \
+		--pdf-engine=xelatex \
+		-V subparagraph \
+		$(metadata_file) $(source_files) \
+		-o $(pdf_file)
 
 $(html_file): $(metadata_file) $(source_files)
-	pandoc -s --toc --lua-filter=lua/anchor-links.lua $(metadata_file) $(source_files) -o $(html_file)
+	pandoc -s --toc \
+		--embed-resources=true \
+		--resource-path=.:pages:assets \
+		--lua-filter=lua/anchor-links.lua $(metadata_file) $(source_files) -o $(html_file)
 
 clean: ## Deletes generated HTML and PDF files
 	rm -f $(pdf_file) $(html_file)
