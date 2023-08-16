@@ -30,7 +30,7 @@ help:                          Shows this help.
 ## Design
 
 * author content in individual Markdown files
-* no extraneous markup in the content
+* separate presentation and content.
 * standard tooling and assets likely to be on a dev system
 * build to different page sizes
 * build to static HTML
