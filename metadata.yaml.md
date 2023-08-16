@@ -1,6 +1,4 @@
 ---
-title: Pages
-
 geometry:
  - paperwidth=5.5in
  - paperheight=8.5in
