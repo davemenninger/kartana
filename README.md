@@ -49,6 +49,15 @@ help:                          Shows this help.
 * Github Actions for publishing to Netlify and/or itch.io
 * automatically import content from CC licensed sources
 
+## Credits
+
+* https://jdhao.github.io/2019/05/30/markdown2pdf_pandoc/
+* https://www.soimort.org/notes/161117/
+* https://en.wikibooks.org/wiki/LaTeX/Page_Layout
+* https://www.overleaf.com/learn/latex/Headers_and_footers
+* https://texdoc.org/serve/geometry.pdf/0
+* https://pandoc.org/MANUAL.html
+
 ## License
 
 [![](https://i.creativecommons.org/l/by-sa/4.0/80x15.png)]((http://creativecommons.org/licenses/by-sa/4.0/)) This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
