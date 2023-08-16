@@ -22,10 +22,13 @@ $(pdf_file): $(metadata_file) $(source_files)
 		-o $(pdf_file)
 
 $(html_file): $(metadata_file) $(source_files)
-	pandoc -s --toc \
-		--embed-resources=true \
+	pandoc -s \
 		--resource-path=.:pages:assets \
-		--lua-filter=lua/anchor-links.lua $(metadata_file) $(source_files) -o $(html_file)
+		--embed-resources=true \
+		--toc \
+		--lua-filter=lua/anchor-links.lua \
+		$(metadata_file) $(source_files) \
+		-o $(html_file)
 
 clean: ## Deletes generated HTML and PDF files
 	rm -f $(pdf_file) $(html_file)

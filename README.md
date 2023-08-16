@@ -37,8 +37,6 @@ help:                          Shows this help.
 
 ### TODO
 
-* images
-* tables
 * CSS
 * citations; links to other CC-BY-SA sources
 * letter size
