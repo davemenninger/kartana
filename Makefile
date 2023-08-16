@@ -1,6 +1,6 @@
 .PHONY: clean open pdf html all help
 
-metadata_file = metadata.yaml.md
+metadata_files = metadata.yaml.md layout.yaml.md
 source_files = $(wildcard pages/*.md)
 pdf_file = output.pdf
 html_file = output.html
@@ -13,21 +13,21 @@ html: $(html_file)
 
 all: pdf html ## Generates both HTML and PDF
 
-$(pdf_file): $(metadata_file) $(source_files)
+$(pdf_file): $(metadata_files) $(source_files)
 	pandoc -s \
 		--resource-path=.:pages:assets \
 		--pdf-engine=xelatex \
-		-V subparagraph \
-		$(metadata_file) $(source_files) \
+		$(metadata_files) $(source_files) \
 		-o $(pdf_file)
 
-$(html_file): $(metadata_file) $(source_files)
+$(html_file): $(metadata_files) $(source_files)
 	pandoc -s \
 		--resource-path=.:pages:assets \
 		--embed-resources=true \
+		--css=path/to/custom.css \
 		--toc \
 		--lua-filter=lua/anchor-links.lua \
-		$(metadata_file) $(source_files) \
+		$(metadata_files) $(source_files) \
 		-o $(html_file)
 
 clean: ## Deletes generated HTML and PDF files
