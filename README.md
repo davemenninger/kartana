@@ -49,12 +49,20 @@ help:                          Shows this help.
 
 ## Credits
 
+### Pandoc
+
 * https://jdhao.github.io/2019/05/30/markdown2pdf_pandoc/
 * https://www.soimort.org/notes/161117/
 * https://en.wikibooks.org/wiki/LaTeX/Page_Layout
 * https://www.overleaf.com/learn/latex/Headers_and_footers
 * https://texdoc.org/serve/geometry.pdf/0
 * https://pandoc.org/MANUAL.html
+
+### CC licensed sources
+
+* https://itch.io/jam/forever-open-source-jam
+* https://github.com/yochaigal/cairn
+* https://github.com/oznogon/cc-srd5
 
 ## License
 
