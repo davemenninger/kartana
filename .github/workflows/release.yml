@@ -10,7 +10,7 @@ jobs:
       contents: write
     steps:
     - uses: actions/checkout@v3
-    - uses: pandoc/actions@v1
+    - uses: pandoc/actions/setup@v1
       with:
         version: 2.19
     - run: make pdf
