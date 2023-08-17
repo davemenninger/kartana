@@ -1,0 +1,17 @@
+name: Create Release Zip
+on:
+  push:
+    tags:
+      - v*
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+    - uses: actions/checkout@v3
+    - run: make pdf
+    - uses: ncipollo/release-action@v1
+      name: Upload PDF File to GitHub
+      with:
+        artifacts: output.pdf
