@@ -13,7 +13,8 @@ jobs:
     - name: Install XeLatex
       run: |
         sudo apt-get update
-        sudo apt-get install texlive-xetex ttf-mscorefonts-installer
+        sudo apt-get install texlive-xetex
+        fc-list
     - uses: pandoc/actions/setup@v1
       with:
         version: 2.19

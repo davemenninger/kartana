@@ -5,9 +5,12 @@ geometry:
  - bottom=0.75in
  - top=0.75in
 
-mainfont: Georgia
+# mainfont: Georgia
 
 subparagraph: true
+
+classoption:
+ - twoside
 
 header-includes:
 - |
