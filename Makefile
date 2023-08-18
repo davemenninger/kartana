@@ -17,6 +17,7 @@ $(pdf_file): $(metadata_files) $(source_files)
 	pandoc -s \
 		--resource-path=.:pages:assets \
 		--pdf-engine=xelatex \
+		--embed-resources \
 		$(metadata_files) $(source_files) \
 		-o $(pdf_file)
 

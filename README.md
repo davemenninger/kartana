@@ -41,6 +41,8 @@ help:                          Shows this help.
 * citations; links to other CC-BY-SA sources
 * letter size
 * epub
+* link color
+* make "install" (print a message about dependencies)
 
 ### Stretch
 
@@ -63,6 +65,10 @@ help:                          Shows this help.
 * https://itch.io/jam/forever-open-source-jam
 * https://github.com/yochaigal/cairn
 * https://github.com/oznogon/cc-srd5
+
+### Fonts
+
+* Alegreya - https://fontlibrary.org/en/font/alegreya [OFL (SIL Open Font License)](http://scripts.sil.org/OFL)
 
 ## License
 
