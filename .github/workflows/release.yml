@@ -21,13 +21,14 @@ jobs:
     - run: make pdf
 
   release:
+    - needs: build
     - uses: ncipollo/release-action@v1
-      needs: build
       name: Upload PDF File to GitHub
       with:
         artifacts: kartana.pdf
 
   publish:
+    - needs: build
     - name: Push using Butler
       uses: Ayowel/butler-to-itch@v1.0.0
       with:
