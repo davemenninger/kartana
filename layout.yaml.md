@@ -10,7 +10,7 @@ geometry:
 mainfont: Alegreya-Regular.ttf
 mainfontoptions:
 - Path=./fonts/alegreya/
-- Scale=1.1
+- Scale=1.0
 - BoldFont=Alegreya-Bold.ttf
 - ItalicFont=Alegreya-Italic.ttf
 - BoldItalicFont=Alegreya-BoldItalic.ttf
