@@ -19,7 +19,20 @@ jobs:
       with:
         version: 2.19
     - run: make pdf
+
+  release:
     - uses: ncipollo/release-action@v1
+      needs: build
       name: Upload PDF File to GitHub
       with:
         artifacts: kartana.pdf
+
+  publish:
+    - name: Push using Butler
+      uses: Ayowel/butler-to-itch@v1.0.0
+      with:
+        butler_key: ${{ secrets.BUTLER_CREDENTIALS }}
+        itch_user: davemenninger
+        itch_game: kartana
+        version: ${{ github.ref_name }}
+        files: "doc kartana.pdf"
