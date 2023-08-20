@@ -32,5 +32,6 @@ header-includes:
   \fancyhead{}
   \renewcommand{\headrule}{}
   \fancyfoot[CO,CE]{i'm the footer}
+  \fancyfoot[RO,LE]{\thepage}
   ```
 ---
