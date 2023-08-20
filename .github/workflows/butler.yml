@@ -1,13 +1,11 @@
-name: Create Release
+name: Publish to itch.io
 on:
   push:
     tags:
       - v*
 jobs:
-  build:
+  publish:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
     - uses: actions/checkout@v3
     - name: Install XeLatex
@@ -19,7 +17,11 @@ jobs:
       with:
         version: 2.19
     - run: make pdf
-    - uses: ncipollo/release-action@v1
-      name: Upload PDF File to GitHub
+    - name: Push using Butler
+      uses: Ayowel/butler-to-itch@v1.0.0
       with:
-        artifacts: kartana.pdf
+        butler_key: ${{ secrets.BUTLER_CREDENTIALS }}
+        itch_user: davemenninger
+        itch_game: kartana
+        version: ${{ github.ref_name }}
+        files: "doc kartana.pdf"

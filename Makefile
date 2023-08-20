@@ -2,8 +2,8 @@
 
 metadata_files = metadata.yaml.md layout.yaml.md
 source_files = $(wildcard pages/*.md)
-pdf_file = output.pdf
-html_file = output.html
+pdf_file = kartana.pdf
+html_file = kartana.html
 
 pdf: ## Generates output.pdf
 pdf: $(pdf_file)
