@@ -49,6 +49,17 @@ help:                          Shows this help.
 >
 > I use the term "Palette" because I liken the idea to an artist's actual, physical palette: you encounter a situation that requires resolution, and you pick what "colors" (rules or subsystems), if any, would be appropriate to "fill in" the situation of the game. 
 
+[The GLOG](https://goblinpunch.blogspot.com/2016/05/the-glog.html) - Arnold K.
+
+> Design Philosophy
+>
+> 1. Compatibility with old modules. Simple enough to perform conversions on the fly.
+> 2. Low Power Level. Each level gives you diminishing returns. The power curve flattens out drastically after 4th level. No supermen.
+> 3. Accessible for new players. They should be able to make a character in 10 minutes, then learn the rules as they play.
+> 4. Simple. Consolidate ruthlessly. Turn two rolls into one, turn one roll into none. Turn tables into formulas, turn formulas into static numbers.
+> 5. Fast to play. Prioritize f lexibility over comprehensiveness, rulings over rules, simplicity over realism.
+> 6. Hackable. No dependencies, no power expectations. If a player requests it, a DM should be able to design a custom class in 5 minutes. Player characters are just a few templates bolted onto a common chassis.
+
 ### TODO
 
 * CSS
