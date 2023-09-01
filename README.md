@@ -35,6 +35,20 @@ help:                          Shows this help.
 * build to different page sizes
 * build to static HTML
 
+### Inspiration
+
+[Control Panel Layout](http://questingblog.com/control-panel-book-layout-osr/) - Ben Milton:
+
+> More and more books in the OSR have been making layout and information design a priority, in particular the “control panel” format that puts all of the relevant information from a single topic on a single page (or two page spread). It’s a term I first used on my video review of B/X essentials, but it seems to have hit a chord. Visuals often take priority, with flowcharts and diagrams replacing traditional text, in order to facilitate faster absorption of the information. I’ve put a bunch of examples below.
+> 
+> It got me wondering whether you could make an entire RPG in the form of cardstock handouts, somewhere between A4 and A5 sized. Player wants to play a wizard? Hand him the card with the magic rules and the card with the spell list. Going exploring on hex C12? The DM pulls out the card for that hex and places it behind the screen. Going shopping and need to see what goods are available at a high-end potion shop? Pull out that card and put it in the middle of the table.
+
+[The Palette RPG - Books of Rules, not Rulebooks](https://orbitalcrypt.blogspot.com/2023/08/the-palette-rpg-books-of-rules-not.html) - Orbital Crypt
+
+> I define a Palette RPG as a game that is fundamentally open to choosing when to use (or not use) the rules, as the GM sees fit. A game that relies heavily on GM arbitration, uses fictional positioning to determine the stakes of a situation (rather than more detailed or "hard" mechanics), and doesn't have a "guiding" game structure is the ideal Palette RPG. A Palette RPG should have a solid and complete set of rules, and those rules should act as the baseline for assumptions about doing things in the game; but those rules are not hard, nor fast, and the game will not break down if any of the systems are ignored during play. 
+>
+> I use the term "Palette" because I liken the idea to an artist's actual, physical palette: you encounter a situation that requires resolution, and you pick what "colors" (rules or subsystems), if any, would be appropriate to "fill in" the situation of the game. 
+
 ### TODO
 
 * CSS
