@@ -60,6 +60,21 @@ help:                          Shows this help.
 > 5. Fast to play. Prioritize f lexibility over comprehensiveness, rulings over rules, simplicity over realism.
 > 6. Hackable. No dependencies, no power expectations. If a player requests it, a DM should be able to design a custom class in 5 minutes. Player characters are just a few templates bolted onto a common chassis.
 
+[Spell Tome](https://www.dandmadeeasy.com/product-page/dnd-5e-spell-tome-all-classes) - DanDMadeEasy
+
+> The Spell Tome makes it easy to store information on your spells your way:
+>
+> * Print and bind your Spell Tomes at home
+> * Organize your spells by casting class and spell level
+> * Options for 1 or 2 spells per page to provide flexibility – save space while still being able to fully describe long spells
+> * Easy navigation using internal tabs and spell page references
+> * Mark prepared spells
+> * Supports multiclass characters!
+> * Lets you add spells outside your normal spell list easily – no need to buy a separate set of spell cards!
+> * Supports homebrew spells
+> * If you want, store every spell!
+> * Specific tabs for the 12 core classes and "wrench" (you fill in the class name)
+
 ### TODO
 
 * CSS
